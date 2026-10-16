@@ -1,0 +1,26 @@
+/* Page background */
+body {
+    background: #000d1a;
+}
+
+/* Rounded Bento cards */
+.card {
+    border: none;
+    border-radius: 16px;
+    background: #212529;
+    color: lightslategray;
+}
+
+/* Small dark information card */
+.side-card {
+    background: #212529;
+    color: white;
+}
+
+/* Input focus effect */
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #212529;
+}
+
