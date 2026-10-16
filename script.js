@@ -15,19 +15,19 @@ form.addEventListener("submit", function(event) {
 
     // Check if any field is empty
     if (!name || !email || !phone || !password || !confirmPassword || !course) {
-        message.textContent = "Please fill in all fields.";
+        message.textContent = "Please fill in all fields";
         message.className = "text-danger mb-3";
     }
 
     // Password must contain at least 6 characters
     else if (password.length < 6) {
-        message.textContent = "Password must be at least 6 characters.";
+        message.textContent = "6 characters likh minimum";
         message.className = "text-danger mb-3";
     }
 
     // Check if both passwords match
     else if (password !== confirmPassword) {
-        message.textContent = "Passwords do not match.";
+        message.textContent = "Match kr k likh password";
         message.className = "text-danger mb-3";
     }
 
