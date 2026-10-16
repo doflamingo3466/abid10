@@ -36,6 +36,6 @@ form.addEventListener("submit", function(event) {
         message.textContent = "Registration successful!";
         message.className = "text-success mb-3";
 
-        form.reset(); // Clear the form
+        form.reset(); // Clear the formm
     }
 });
